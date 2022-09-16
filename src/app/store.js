@@ -1,5 +1,5 @@
 import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
-import todoReducer from "../features/todoSlice";
+import todoReducer from "../component/todoSlice";
 const reduxLogger = require("redux-logger");
 
 const logger = reduxLogger.createLogger();

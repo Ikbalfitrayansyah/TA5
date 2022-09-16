@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
-import TodoView from "./features/TodoView";
+import TodoView from "./component/TodoView";
+
 
 function App() {
   return (
